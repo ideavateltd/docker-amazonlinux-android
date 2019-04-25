@@ -1,2 +1,1 @@
-# amazonlinux-android
-Amazon Linux 2 + Android SDK
+# Dockerized Amazon Linux 2 + Android SDK
