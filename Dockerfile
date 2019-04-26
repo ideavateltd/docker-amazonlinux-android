@@ -1,7 +1,7 @@
 FROM ideavate/amazonlinux-android:nosdk
 
-ENV ANDROID_VERSION=26 \
-    ANDROID_BUILD_TOOLS_VERSION=26.0.2
+ENV ANDROID_VERSION=28 \
+    ANDROID_BUILD_TOOLS_VERSION=28.0.3
 
 # Install Android Build Tool and Libraries
 RUN $ANDROID_HOME/tools/bin/sdkmanager --update
