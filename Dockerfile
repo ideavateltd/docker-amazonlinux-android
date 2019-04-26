@@ -16,7 +16,7 @@ RUN mkdir "$ANDROID_HOME" .android \
  && rm sdk.zip \
  && yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 
-RUN chown -R a=rwx ${ANDROID_HOME}
+RUN chmod -R a=rwx ${ANDROID_HOME}
 
 RUN mkdir /application
 WORKDIR /application
